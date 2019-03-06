@@ -1,0 +1,444 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+/*.***************MAIN STYLES*****************.*/
+
+body{
+
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+h4{
+	visibility: hidden;
+}
+header{
+	background: url("images/tealback.jpg");
+	background-size: cover;
+}
+nav{
+	height: 300px;
+}
+summary{
+	font-size: 1.2rem;
+}
+header section figure{
+	max-width:100%;
+	margin-left: 20%;
+}
+h1{
+	font-family: 'Snowburst One', cursive;
+	color:#a2aeac;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 15%;
+}
+.large-heart{
+	font-size:500%;
+	color:#a2aeac;
+}
+
+h2{
+	font-size: 1rem;
+	background-color: #9ddad2;
+	text-align: center;
+	padding: 15% 3% 6% 3%;
+	color: #a2aeac;
+	font-family: 'Snowburst One', cursive;
+	}
+hr{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 20px;
+	background-color:#a2aeac;
+	opacity: 0.5;
+}
+.line2{
+	margin-top: 25%;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 10px;
+	background-color:#a2aeac;
+	opacity: 0.5;
+}
+.line3{
+	margin-top: 15%;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 10px;
+	background-color:#a2aeac;
+	opacity: 0.5;
+}
+img{
+	max-width: 100%;
+}
+.desktop-menu{
+	display: none;
+}
+.biography{
+	float:left;
+	width:55%;
+	background-color:#9ddad2;
+}
+.biography figure{
+	width: 100%;
+	padding: 25% 0 0 0;
+}
+.roadline{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 10px;
+	background-color:#a2aeac;
+	opacity: 0.5;
+}
+.biography p{
+	text-align: center;
+	padding-top: 10%;
+}
+aside{
+	background: #dddddd;
+	float: right;
+	width:40%;
+	padding: 5% 0 15% 1%;
+	font-size: .75em;
+	text-align: center;
+}
+/*.*****COLOR ANIMATION*****.*/
+article p{
+  background-color: #dddddd;
+  -webkit-animation-name: paragraphs; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: paragraph;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes paragraph {
+  0%   {background-color: #a2aeac;}
+  25%  {background-color: #9ddad2;}
+  50%  {background-color: #dddddd;}
+  100% {background-color: #9ddad2;}
+}
+
+/* Standard syntax */
+@keyframes paragraph {
+0%   {background-color: #a2aeac;}
+  25%  {background-color: #9ddad2;}
+  50%  {background-color: #dddddd;}
+  100% {background-color: #9ddad2;}
+}
+
+/*.*****COLOR ANIMATION*****.*/
+
+
+aside article{
+	margin-top: 15%;
+	margin-right: 5%;
+}
+.small-hearts{
+	font-size:200%;
+	color:#a2aeac;
+}
+.site{
+	background-color: #dddddd;
+}
+/*.******FOOTER********.*/
+.social-icons li img {
+  width:30px;
+  height:30px;
+  margin-right: 2%;
+
+}
+.social-icons {
+  text-align: right;
+  margin-right:2%;
+  margin-top: 2%;
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+footer{
+	background: url("images/tealback.jpg");
+	background-size: cover;
+	height:100px;
+	text-align: center;
+	padding: 9% 0 2% 0;
+	width:100%;
+	clear: both
+}
+.single p{
+	text-align: left;
+	font-size: .7rem;
+	font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+   .single p:hover {
+      opacity: 0.5;
+      }
+
+/*.*******STICKY FOOTER CSS******.*/
+.site{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.site-content{
+	flex-grow: 1;
+}
+/*.*****END FOOTER******.*/
+
+/*.**************PHOTOGRAPHY PAGE*************.*/
+
+.image-grid {
+	margin: 0 10% 0 10%;
+	padding-top: 2%
+	}
+
+.image-grid figure{
+	padding: 2% 0 10% 0;
+}
+.image-grid figcaption{
+	padding: 2% 4% 5% 4%;
+	background-color:#a2aeac;
+	border:dashed black 2px;
+	margin-bottom: 5%;
+	max-width: 100%;
+}
+.site2{
+	background-color: #dddddd;
+}
+.extra{
+	display: none;
+}
+/*.******START FLEXBOX*******.*/
+.image-grid{
+	display: flex;
+	flex-wrap: wrap;
+}
+figure{
+	width:100%;
+}
+img{
+	max-width: 100%;
+}
+
+/*.******END FLEXBOX*******.*/
+
+/*.************END MAIN****************./
+
+/*.****HAMBURGER MENU******.*/
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#000000;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#000000;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#dddddd;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#a2aeac; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+/*.*************HAMBURGER ENDS**************.*/
+
+
+
+/*.***************START MEDIA QUERIES************.*/
+
+/*.***************START 345px MEDIA QUERIES************.*/
+@media(min-width: 345px){
+	header figure{
+		padding-left: 10%;
+	}
+}
+
+/*.***************END 345px MEDIA QUERIES************.*/
+/*.***************START 420px MEDIA QUERIES************.*/
+@media(min-width: 420px){
+	header figure{
+		padding-left: 13%;
+	 }
+h2{
+	font-size: 1.5rem;
+}
+aside article{
+	margin-top: 35%;
+}
+h1{
+	font-size: 3rem;
+}
+.single p{
+	text-align: center;
+	font-size: 1rem;
+}
+}
+
+/*.***************END 420px MEDIA QUERIES************.*/
+
+/*.***************START 600px MEDIA QUERIES************.*/
+
+@media(min-width: 600px){
+	header figure{
+		padding-left: 20%;
+	 }
+h1{
+	padding-top: 20%;
+}
+h2{
+	font-size: 1.8rem;
+}
+aside article{
+	font-size: 1rem;
+	margin-top: 40%;
+}
+.image-grid figure{
+		width:50%;
+		padding: 0;
+	}
+.image-grid figcaption{
+	display: none;
+}
+.single p{
+	text-align: center;
+	font-size: 1.3rem;
+}
+}
+
+/*.***************END 600px MEDIA QUERIES************.*/
+
+/*.***************START 850px MEDIA QUERIES************.*/
+
+@media(min-width: 850px){
+	header figure{
+		padding-left: 25%;
+	}
+	aside article{
+		font-size: 1.2rem;
+	}
+	h1{
+		font-size: 4rem;
+	}
+	.large-heart{
+		font-size: 700%;
+		color: #a2aeac;
+	}
+	article p{
+		padding-bottom: 30%;
+	}
+	.image-grid figure{
+		width:33.3333%;
+		padding: 0;
+	}
+	.image-grid figcaption{
+	display: none;
+	}
+	.extra{
+	display: block;
+	}
+
+
+}​
+/*.**************START 1000px MEDIA QUERY *********.*/
+@media(min-width: 1000px){
+
+
+	.menu,.hamburger, .cross{
+		display: none;
+}
+	.desktop-menu{
+		display: inline;
+		margin: 5% 0 5% 0;
+		text-align: center;
+	}
+	.desktop-menu ul li{
+		display: inline;`
+		list-style-type: none;
+		padding:5% 2% 5% 2%;
+		font-family: 'Snowburst One', cursive;
+		color:#000000;
+		font-weight: bold;
+	}
+	.image-grid figure{
+		width: 25%;
+		padding: 0;
+	}
+	.image-grid figcaption{
+	display: none;
+	}
+	.extra{
+	display: none;
+	}
+	header{
+		padding-bottom: 5%;
+}
+
+}
+/*.**************START 1000px MEDIA QUERY *********.*/
+
+
+/*.*********************START 1150PX MEDIA QUERY********.*/
+@media(min-width: 1150px){
+	.desktop-menu{
+		margin: 5% 0 0% 0;
+}
+.image-grid figure{
+		width:20%;
+		padding: 0;
+	}
+	.image-grid figcaption{
+	display: none;
+	}
+	.extra{
+	display: none;
+	}
+}
+/*.*********************END 1150PX MEDIA QUERY********.*/
