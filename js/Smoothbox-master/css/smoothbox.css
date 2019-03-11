@@ -1,14 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
-article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-    display:block;
-}
-/*.JAVAPLUGIN IN CSS-SMOOTHBOX*****.*/
-ody, html {
+body, html {
     height:100%;
     width:100%;
 }
@@ -54,7 +44,7 @@ ody, html {
     margin: 0 auto;
     width: auto;
     padding: 0;
-    list-style: none;
+    list-style: none;    
     border-radius: 2px;
     display: table;
 }
@@ -181,93 +171,3 @@ ody, html {
 .sb-cancel:hover {
     background:#820001;
 }
-
-
-
-/*.***********END SMOOTHBOX CSS.******.*/
-
-
-
-
-body{
-
-	background-size: cover;
-	font-family: 'Montserrat', sans-serif;
-	background: white;
-}
-
-nav{
-	height: 300px;
-}
-summary{
-	font-size: 1.2rem;
-}
-
-h2{
-	font-size: 1rem;
-	background-color: #9ddad2;
-	text-align: center;
-	padding: 15% 3% 6% 3%;
-	color: #a2aeac;
-	font-family: 'Snowburst One', cursive;
-	}
-
-img{
-	max-width: 100%;
-}
-.desktop-menu{
-	display: none;
-}
-
-/*.******FOOTER********.*/
-.social-icons li img {
-  width:30px;
-  height:30px;
-  margin-right: 2%;
-
-}
-.social-icons {
-  text-align: right;
-  margin-right:2%;
-  margin-top: 2%;
-  }
-.social-icons li {
-  display:inline-block;
-  list-style-type:none;
-  }
-.social-icons li a {
-  border-bottom: none;
-  }
-footer{
-	background: url("images/tealback.jpg");
-	background-size: cover;
-	height:100px;
-	text-align: center;
-	padding: 9% 0 2% 0;
-	width:100%;
-	clear: both
-}
-.single p{
-	text-align: left;
-	font-size: .7rem;
-	font-weight: bold;
-   font-family: 'Montserrat', sans-serif;
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
-   .single p:hover {
-      opacity: 0.5;
-      }
-
-/*.*******STICKY FOOTER CSS******.*/
-.site{
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-.site-content{
-	flex-grow: 1;
-}
-/*.*****END FOOTER******.*/
