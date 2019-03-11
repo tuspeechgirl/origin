@@ -215,15 +215,47 @@ h1{
 img{
 	max-width: 100%;
 }
+.container{
+	background: url("images/tealback.jpg");
+}
+.dessert{
+	padding-bottom: 5%;
+}
+h2{
+	padding:2%;
+}
+
+.recipe1{
+	background:#a2aeac;
+	border: dashed 3px black;
+	width:70%;
+	margin: 5%
+}
+.recipe2{
+	background:#9ddad2;
+}
+ p{
+	padding-left:5%;
+}
+.instructions{
+	padding-left: 2%;
+}
 .desktop-menu{
 	display: none;
+}
+ul li{
+margin-left: 15%;
+
+}
+.ingredients{
+	margin-left: 15%;
 }
 
 /*.******FOOTER********.*/
 .social-icons li img {
   width:30px;
   height:30px;
-  margin-right: 2%;
+  margin-right:2%;
 
 }
 .social-icons {
@@ -245,7 +277,7 @@ footer{
 	text-align: center;
 	padding: 9% 0 2% 0;
 	width:100%;
-	clear: both
+	clear:both;
 }
 .single p{
 	text-align: left;
