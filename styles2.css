@@ -244,6 +244,9 @@ nav{
 summary{
 	font-size: 1.2rem;
 }
+img{
+	padding-left: 5%;
+}
 
 h1{
 
@@ -261,14 +264,16 @@ img{
 	background: url("images/tealback.jpg");
 	padding-top: 5%;
 	background-size: 100%;
+	padding-bottom: 5%;
 }
 .dessert{
 	padding-bottom: 5%;
 }
 h2{
-	padding:2%;
-	font-size:1.2rem;
+	text-align: center;
+	font-size:1.1rem;
 	text-decoration: underline;
+
 }
 
 .recipe1{
@@ -292,9 +297,8 @@ h2{
 	font-size: .8rem;
 }
 .instructions{
-	padding: 2% 2% 0 0;
-	font-size: 1rem;
-
+	padding: 4% 2% 0 0;
+	font-size: .8rem;
 
 }
 .desktop-menu{
@@ -306,8 +310,9 @@ font-size: .8rem;
 
 }
 .ingredients{
+	padding-top: 3%;
 	margin-left: 2%;
-	font-size: 1rem;
+	font-size: .8rem;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -331,7 +336,7 @@ font-size: .8rem;
   border-bottom: none;
   }
 footer{
-	background: url("images/tealback.jpg");
+	background: #9ddad2;
 	background-size: cover;
 	height:100px;
 	text-align: center;
