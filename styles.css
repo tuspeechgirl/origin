@@ -249,6 +249,9 @@ img{
 /*.************END MAIN****************./
 
 /*.****HAMBURGER MENU******.*/
+.menu{
+	height:150px;
+}
 .hamburger{
   background:none;
   position:absolute;
@@ -282,7 +285,7 @@ img{
 }
 .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#dddddd;  position:absolute; text-align:center; font-size:12px;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li {display: block;   padding:5px 0 0px 0; border-bottom:#dddddd 1px solid;}
 .menu li:hover{display: block;    background:#a2aeac; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
 .menu ul li a:hover {  color: #666; text-decoration:none;}
