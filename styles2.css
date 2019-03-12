@@ -282,7 +282,7 @@ h2{
 	width:80%;
 	margin: 5%;
 	padding:3%;
-	height:100px;
+	height:200px;
 }
 .recipe2{
 	background:url("images/mojito1.jpg");
@@ -291,6 +291,7 @@ h2{
 	margin: 5%;
 	padding:3%;
 	background-size: cover;
+	height: 200px;
 
 }
  p{
