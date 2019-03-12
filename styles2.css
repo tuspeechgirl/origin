@@ -250,8 +250,8 @@ h1{
 	background-color: #9ddad2;
 	text-align: center;
 	padding: 15% 3% 6% 3%;
-	color: #a2aeac;
-	font-family: 'Snowburst One', cursive;
+	color: black;
+
 	}
 
 img{
@@ -266,33 +266,43 @@ img{
 }
 h2{
 	padding:2%;
+	font-size:1.2rem;
+	text-decoration: underline;
 }
 
 .recipe1{
 	background:url("images/greyy.jpg");
 	border: dashed 3px black;
-	width:70%;
-	margin: 5
+	width:80%;
+	margin: 5%;
+	padding:3%;
 
 }
 .recipe2{
 	background:#9ddad2;
 }
  p{
-	padding-left:
+	padding: 3%;
+	font-size: .8rem;
 }
 .instructions{
-	padding-left: 2%;
+	padding: 2% 2% 0 0;
+	font-size: 1rem;
+
+
 }
 .desktop-menu{
 	display: none;
 }
 ul li{
 margin-left: 15%;
+font-size: .8rem;
 
 }
 .ingredients{
-	margin-left: 15%;
+	margin-left: 2%;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*.******FOOTER********.*/
