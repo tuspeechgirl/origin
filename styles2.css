@@ -260,6 +260,7 @@ img{
 .container{
 	background: url("images/tealback.jpg");
 	padding-top: 5%;
+	background-size: 100%;
 }
 .dessert{
 	padding-bottom: 5%;
@@ -276,10 +277,14 @@ h2{
 	width:80%;
 	margin: 5%;
 	padding:3%;
-
 }
 .recipe2{
-	background:#9ddad2;
+	background:url("images/mojito.jpg");
+	border: dashed 3px black;
+	width:80%;
+	margin: 5%;
+	padding:3%;
+
 }
  p{
 	padding: 3%;
@@ -346,6 +351,11 @@ footer{
    .single p:hover {
       opacity: 0.5;
       }
+
+
+
+
+
 
 /*.*******STICKY FOOTER CSS******.*/
 .site{
