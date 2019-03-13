@@ -26,9 +26,7 @@ header{
 nav{
 	height: 300px;
 }
-summary{
-	font-size: 1.2rem;
-}
+
 header section figure{
 	max-width:100%;
 	margin-left: 20%;
@@ -250,7 +248,7 @@ img{
 
 /*.****HAMBURGER MENU******.*/
 .menu{
-	height:150px;
+	height:120px;
 }
 .hamburger{
   background:none;
