@@ -16,9 +16,7 @@ body{
 	background-size: cover;
 	font-family: 'Montserrat', sans-serif;
 }
-h4{
-	visibility: hidden;
-}
+
 header{
 	background: url("images/tealback.jpg");
 	background-size: cover;
@@ -40,122 +38,14 @@ h1{
 	text-align: center;
 	padding-top: 15%;
 }
-.large-heart{
-	font-size:500%;
-	color:#a2aeac;
-}
 
-h2{
-	font-size: 1rem;
-	background-color: #9ddad2;
-	text-align: center;
-	padding: 15% 3% 6% 3%;
-	color: #a2aeac;
-	font-family: 'Snowburst One', cursive;
-	}
-hr{
-	width: 100%;
-	margin-left: 0;
-	margin-right: 0;
-	height: 20px;
-	background-color:#a2aeac;
-	opacity: 0.5;
-}
-.line2{
-	margin-top: 25%;
-	width: 100%;
-	margin-left: 0;
-	margin-right: 0;
-	height: 10px;
-	background-color:#a2aeac;
-	opacity: 0.5;
-}
-.line3{
-	margin-top: 15%;
-	width: 100%;
-	margin-left: 0;
-	margin-right: 0;
-	height: 10px;
-	background-color:#a2aeac;
-	opacity: 0.5;
-}
 img{
 	max-width: 100%;
 }
 .desktop-menu{
 	display: none;
 }
-.biography{
-	float:left;
-	width:55%;
-	background-color:#9ddad2;
-}
-.biography figure{
-	width: 100%;
-	padding: 25% 0 0 0;
-}
-.roadline{
-	width: 100%;
-	margin-left: 0;
-	margin-right: 0;
-	height: 10px;
-	background-color:#a2aeac;
-	opacity: 0.5;
-}
-.biography p{
-	text-align: center;
-	padding-top: 10%;
-}
-aside{
-	background: #dddddd;
-	float: right;
-	width:40%;
-	padding: 5% 0 15% 1%;
-	font-size: .75em;
-	text-align: center;
-}
-/*.*****COLOR ANIMATION*****.*/
-article p{
-  background-color: #dddddd;
-  -webkit-animation-name: paragraphs; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  animation-name: paragraph;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
 
-
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes paragraph {
-  0%   {background-color: #a2aeac;}
-  25%  {background-color: #9ddad2;}
-  50%  {background-color: #dddddd;}
-  100% {background-color: #9ddad2;}
-}
-
-/* Standard syntax */
-@keyframes paragraph {
-0%   {background-color: #a2aeac;}
-  25%  {background-color: #9ddad2;}
-  50%  {background-color: #dddddd;}
-  100% {background-color: #9ddad2;}
-}
-
-/*.*****COLOR ANIMATION*****.*/
-
-
-aside article{
-	margin-top: 15%;
-	margin-right: 5%;
-}
-.small-hearts{
-	font-size:200%;
-	color:#a2aeac;
-}
-.site{
-	background-color: #dddddd;
-}
 /*.******FOOTER********.*/
 .social-icons li img {
   width:30px;
@@ -209,7 +99,7 @@ footer{
 }
 /*.*****END FOOTER******.*/
 
-/*.**************PHOTOGRAPHY PAGE*************.*/
+/*.**************WORKOUT PHOTOS  PAGE*************.*/
 
 .image-grid {
 	margin: 0 10% 0 10%;
@@ -217,21 +107,10 @@ footer{
 	}
 
 .image-grid figure{
-	padding: 2% 0 10% 0;
+	padding: 5% 0 10% 0;
 }
-.image-grid figcaption{
-	padding: 2% 4% 5% 4%;
-	background-color:#a2aeac;
-	border:dashed black 2px;
-	margin-bottom: 5%;
-	max-width: 100%;
-}
-.site2{
-	background-color: #dddddd;
-}
-.extra{
-	display: none;
-}
+
+
 /*.******START FLEXBOX*******.*/
 .image-grid{
 	display: flex;
@@ -296,7 +175,6 @@ img{
 
 .main {
 	width: 80%;
-	background-color: gray;
 	margin: auto;
 	padding: 2%;
 	margin-top: 50px;
