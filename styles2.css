@@ -187,6 +187,9 @@ ody, html {
 /*.***********END SMOOTHBOX CSS.******.*/
 
 /*.****HAMBURGER MENU******.*/
+.menu{
+	height:150px;
+}
 .hamburger{
   background:none;
   position:absolute;
