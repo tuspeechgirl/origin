@@ -391,11 +391,43 @@ footer{
 
 /*****.*START MEDIA QUERIES***********.*/
 /*****.*START 475px MEDIA QUERIES***********.*/
+@media(min-width:475px){
 .recipe1{
 	width:90%;
 }
 .recipe2{
 	width: 90%;
 }
+
+}
+/*****.*END 475 pxMEDIA QUERIES***********.*/
+/*****.*START 730px MEDIA QUERIES***********.*/
+@media(min-width: 730px){
+	.recipe1{
+		width:100%;
+	}
+	.recipe2{
+		width: 100%;
+	}
+
+}
+/*****.*END 730 px MEDIA QUERIES***********.*/
+/*****.*START 1000px MEDIA QUERIES***********.*/
+@media(min-width:1000px){
+	.recipe1,.recipe2{
+		margin:0 auto;
+	}
+	h1{
+		width:40%;
+		float:left;
+	}
+	.logo{
+		width: 20%;
+		float: right;
+		padding:0%;
+		margin-right: 15%;
+		background:none;
+
+	}
 
 }
