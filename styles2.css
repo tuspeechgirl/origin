@@ -232,8 +232,23 @@ ody, html {
 /*.*************HAMBURGER ENDS**************.*/
 
 
+.navhome{
+	font-size: .8rem;
+	display: inline;
+}
 
+.navhome a{
+	text-decoration: none;
+}
+.navhome li a:hover{
+	background: grey;
+}
+hr{
+	background-color: grey;
+	width: 100%;
+	height: 3px;
 
+}
 body{
 
 	background-size: cover;
@@ -257,6 +272,8 @@ h1{
 	text-align: center;
 	padding: 15% 3% 6% 3%;
 	color: black;
+	font-family: 'Snowburst One',cursive;
+	font-size: 1.5rem;
 
 	}
 
@@ -333,19 +350,22 @@ font-size: .8rem;
 
 /*.******FOOTER********.*/
 .social-icons li img {
-  width:30px;
-  height:30px;
-  margin-right:2%;
+  width:20px;
+  height:20px;
+}
 
+.social-icons:hover{
+	transform: scale(1.1); }
 }
 .social-icons {
-  text-align: right;
-  margin-right:2%;
+	transition: all .2s ease-in-out;
+  margin-right:.1%;
   margin-top: 2%;
   }
 .social-icons li {
-  display:inline-block;
+  display:inline-table;
   list-style-type:none;
+float: left;
   }
 .social-icons li a {
   border-bottom: none;
@@ -420,6 +440,7 @@ footer{
 	h1{
 		width:40%;
 		float:left;
+
 	}
 	.logo{
 		width: 20%;
